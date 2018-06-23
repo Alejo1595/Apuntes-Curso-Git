@@ -1,4 +1,4 @@
-###Flujo de trabajo basico en Git
+### Flujo de trabajo basico en Git
 
 Git es un sistema se control de versiones para el mantenimiento eficiente y confiable de archivos usado a nivel global.
 
@@ -11,7 +11,7 @@ Git es un sistema se control de versiones para el mantenimiento eficiente y conf
 2. Preparas los archivos, añadiendolos a tu area de preparación.
 3. Confirmas los cambios, lo que toma los archivos tal y como estan en el area de preparación y almacena una copia instantanea de manera permanente en tu directorio Git.
 
-###Configuraciones Globales
+### Configuraciones Globales
 ````
 git config --global user.name "Mombre"
 git config --global user.user "Nombre de usuario"
