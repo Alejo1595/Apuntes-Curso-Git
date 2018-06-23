@@ -12,6 +12,8 @@ Comando de git usado para ver el estado del repositorio.
 
     3.2. `git add -A` Comando de git usado para añadir solamente los archivos que se esten siguiendo de la zona de trabajo a la zona de preparación.
 
+    3.3 `git add --amend` comando que se usa para cambiar el mensaje y la descripcion de un commit.
+
 4. `git reset HEAD "Nombre del archivo"` Comando de git usado para sacar un arvhivo de la zona de preparación y devolverlo al directorio de trabajo.
 
   4.1. `git reset HEAD .` Comando de git usado para sacar todos los arvhivo de la zona de preparación y devolverlos al directorio de trabajo.
