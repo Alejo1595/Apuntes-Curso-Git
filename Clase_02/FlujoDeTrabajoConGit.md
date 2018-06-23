@@ -1,6 +1,6 @@
 ###Flujo de trabajo basico en Git
 
-Git es un sistema se control de versiones usado a nivel global.
+Git es un sistema se control de versiones para el mantenimiento eficiente y confiable de archivos usado a nivel global.
 
 ### Zonas de git
 1. Directorio de trabajo.
