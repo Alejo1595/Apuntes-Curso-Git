@@ -22,7 +22,7 @@ Comando de git usado para ver el estado del repositorio.
 
   5.1. `git commit -m` Realiza un commit con los archivos que estan en la zona de preparacion añadiendole un mensaje.
 
-  5.2. `git commit -a -m` Realiza un comit saltando el area de preparación.
+  5.2. `git commit -a -m` Realiza un comit saltando el area de preparación. git Prepara automaticamente todos los archivos rastreados antes de confirmarlos.
 
 6. `git log` Comando usado para ver el historial de commits.
 
