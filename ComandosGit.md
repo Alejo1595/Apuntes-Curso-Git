@@ -36,11 +36,13 @@ Comando de git usado para ver el estado del repositorio.
 
 9. `git checkout "ruta del archivo"` Recupera archivos eliminados del area de trabajo.
 
+10. `git mv` Renombrar Archivos.
+
 ````
 Creacion de alias
-git ocnfig --global alias."alias" "Comando de git"
+git config --global alias."alias" "Comando de git"
 
 Los alias son usados para abreviar el llamdo de un comando.
 
-`git config --list | grep alias`  mostrara todos los alias creados.
+git config --list | grep alias mostrara todos los alias creados.
 ````
