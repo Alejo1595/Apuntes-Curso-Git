@@ -30,6 +30,15 @@ Comando de git usado para ver el estado del repositorio.
 
   6.2.`git log --graph` Comando usado para ver el historial de commits con un grafico.
 
+  6.3 `git log -n` nos muestra los ultimos n commits del historial. n --> numero de commits.
+
+  6.4 `git log --pretty=format:"%h - %an, %ar : %s"` muestra el historial con el formato que le indiquemos.
+
+  `%h` hash del commit.
+  `%an` Autor del commit.
+  `%ar` tiempo que ha pasado desde que se realizo el commit.
+  `%s` mensaje del commit.
+
 7. `git diff` Comando usado para ver los cambios que hay entre los archivos de la zona de preparación y el directorio de trabajo.
 
 8. `git rm` Elimina archivos rastreados del repositorio y de nuestro directorio de trabajo de manera que no aparezca la proxima vez como archivos no rastreados.
