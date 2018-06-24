@@ -39,6 +39,16 @@ Comando de git usado para ver el estado del repositorio.
   `%ar` tiempo que ha pasado desde que se realizo el commit.
   `%s` mensaje del commit.
 
+  6.5.` git log after "AA-MM-DD HH-MM-SS"` mostrar el historial de commits que hay despues de una fecha y hora determinada.
+
+  6.6.` git log before "AA-MM-DD HH-MM-SS"` mostrar el historial de commits que hay antes de una fecha y hora determinada.
+
+  ````
+  se pueden combinar las banderas after y before para obtener un rango de fechas.
+
+  git log after "AA-MM-DD HH-MM-SS" --before "AA-MM-DD HH-MM-SS"
+  ````
+
 7. `git diff` Comando usado para ver los cambios que hay entre los archivos de la zona de preparación y el directorio de trabajo.
 
 8. `git rm` Elimina archivos rastreados del repositorio y de nuestro directorio de trabajo de manera que no aparezca la proxima vez como archivos no rastreados.
