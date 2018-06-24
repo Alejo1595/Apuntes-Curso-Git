@@ -35,3 +35,12 @@ Comando de git usado para ver el estado del repositorio.
 8. `git rm` Elimina archivos rastreados del repositorio y de nuestro directorio de trabajo de manera que no aparezca la proxima vez como archivos no rastreados.
 
 9. `git checkout "ruta del archivo"` Recupera archivos eliminados del area de trabajo.
+
+````
+Creacion de alias
+git ocnfig --global alias."alias" "Comando de git"
+
+Los alias son usados para abreviar el llamdo de un comando.
+
+`git config --list | grep alias`  mostrara todos los alias creados.
+````
