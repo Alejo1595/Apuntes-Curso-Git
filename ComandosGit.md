@@ -31,3 +31,5 @@ Comando de git usado para ver el estado del repositorio.
   6.2.`git log --graph` Comando usado para ver el historial de commits con un grafico.
 
 7. `git diff` Comando usado para ver los cambios que hay entre los archivos de la zona de preparación y el directorio de trabajo.
+
+8. `git rm` Elimina archivos rastreados del repositorio y de nuestro directorio de trabajo de manera que no aparezca la proxima vez como archivos no rastreados.
