@@ -59,6 +59,8 @@ Comando de git usado para ver el estado del repositorio.
 
 9. `git checkout "ruta del archivo"` Recupera archivos eliminados del area de trabajo.
 
+9.1. `git checkout "hash commit"` Nos permite hacer un salto entre commits.
+
 10. `git mv` Renombrar Archivos.
 
 ````
@@ -78,3 +80,10 @@ Los alias son usados para abreviar el llamdo de un comando.
 
 git config --list | grep alias mostrara todos los alias creados.
 ````
+11. `git tag` Lista las etiquetas. Este comando lista todas las etiquetas en orden alfabetico, el orden en el que  aparecen no tienen mayor importancia.
+
+11.1 `Etiqueta Ligera git tag v1.1-dev` Una etiqueta ligera no es mas que un checksum de un commit guardado en un archivo, no incluye mas información para crear una etiqueta ligera no pasamos las opciones -a, -s ni -m.
+
+11.2 `Etiqueta Anotada git tag -a v1.0 -m "Mensaje"` Se guarda en la base de datos de Git como objetos enteros. Tiene un checksum; contienen el nombre del etiquetador, correo electronico y fecha; y tiene un mensaje asociado.
+
+11.3`git tag -l "patron *"`Bandera que nos permite buscar etiquetas que posean un patron similar. 
