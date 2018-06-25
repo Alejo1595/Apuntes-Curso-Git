@@ -24,6 +24,8 @@ Comando de git usado para ver el estado del repositorio.
 
   5.2. `git commit -a -m` Realiza un comit saltando el area de preparación. git Prepara automaticamente todos los archivos rastreados antes de confirmarlos.
 
+  5.3 `git commit --amend` Rehace la confirmación. Este comando utiliza el area de preparacion para la confirmación. al final terminaras con una sola confirmación - la segunda confirmación reemplaza el resultado de la primera.
+
 6. `git log` Comando usado para ver el historial de commits.
 
   6.1.`git log --oneline` Comando usado para ver el historial de commits en una sola linea.
