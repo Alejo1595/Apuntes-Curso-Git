@@ -51,6 +51,8 @@ Comando de git usado para ver el estado del repositorio.
   git log after "AA-MM-DD HH-MM-SS" --before "AA-MM-DD HH-MM-SS"
   ````
 
+  6.7 `git log --all` Mostrara todas las ramas del historial de commits.
+
 7. `git diff` Comando usado para ver los cambios que hay entre los archivos de la zona de preparación y el directorio de trabajo.
 
 8. `git rm` Elimina archivos rastreados del repositorio y de nuestro directorio de trabajo de manera que no aparezca la proxima vez como archivos no rastreados.
