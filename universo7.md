@@ -3,4 +3,5 @@
  donde esta Vegeta.
  donde esta Gohan.
  donde esta Videl.
-  donde esta Satan.
+donde esta Satan.
+ donde esta Picolo.
