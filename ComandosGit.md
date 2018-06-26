@@ -91,3 +91,5 @@ git config --list | grep alias mostrara todos los alias creados.
 12. `git branch` Una rama en git es simplemente un apuntador movil apuntando a uno de los commits.
 
 12.1 `git branch -v` Muestra el ultimo commit de cada rama.
+
+12.2 `git branch -d` elimina "Rama" si ya ha sido fusionada con la rama actual.
