@@ -89,3 +89,5 @@ git config --list | grep alias mostrara todos los alias creados.
 11.3`git tag -l "patron *"`Bandera que nos permite buscar etiquetas que posean un patron similar.
 
 12. `git branch` Una rama en git es simplemente un apuntador movil apuntando a uno de los commits.
+
+12.1 `git branch -v` Muestra el ultimo commit de cada rama.
