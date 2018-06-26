@@ -59,7 +59,11 @@ Comando de git usado para ver el estado del repositorio.
 
 9. `git checkout "ruta del archivo"` Recupera archivos eliminados del area de trabajo.
 
-9.1. `git checkout "hash commit"` Nos permite hacer un salto entre commits.
+9.1. `git checkout "hash commit"` Nos permite hacer un salto entre commits usando el hash de cada commit.
+
+9.2.`git checkout "tag"`Nos permite hacer un salto entre commits usando un tag.
+
+9.3.`git checkout -b "nombre de la rama"`Crea una nueva rama y hace al salto hacia ella.
 
 10. `git mv` Renombrar Archivos.
 
