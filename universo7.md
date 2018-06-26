@@ -5,4 +5,9 @@
  donde esta Videl.
 donde esta Satan.
  donde esta Picolo.
+<<<<<<< HEAD
 donde esta Milk.
+=======
+ donde esta Truns.
+ donde esta Bills.
+>>>>>>> testing
