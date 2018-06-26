@@ -86,4 +86,6 @@ git config --list | grep alias mostrara todos los alias creados.
 
 11.2 `Etiqueta Anotada git tag -a v1.0 -m "Mensaje"` Se guarda en la base de datos de Git como objetos enteros. Tiene un checksum; contienen el nombre del etiquetador, correo electronico y fecha; y tiene un mensaje asociado.
 
-11.3`git tag -l "patron *"`Bandera que nos permite buscar etiquetas que posean un patron similar. 
+11.3`git tag -l "patron *"`Bandera que nos permite buscar etiquetas que posean un patron similar.
+
+12. `git branch` Una rama en git es simplemente un apuntador movil apuntando a uno de los commits.
