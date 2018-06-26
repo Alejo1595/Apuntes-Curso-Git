@@ -93,3 +93,11 @@ git config --list | grep alias mostrara todos los alias creados.
 12.1 `git branch -v` Muestra el ultimo commit de cada rama.
 
 12.2 `git branch -d` elimina "Rama" si ya ha sido fusionada con la rama actual.
+
+12.3 `git branch -D` Elimina una rama este o no fusionada con la rama actual. Se fuerza el borrado, se pierden los cambios.
+
+12.4 `git branch --no-merged` Nos muestra la rama que no han sido fusionada a la rama actual.
+
+12.5 `git branch --merged` Nos muestra la rama que han sido fusionadas.
+
+13. `git merge "otra_rama"`Este comando permite combinar dos ramas. incorpora otra_rama en la rama actual.
