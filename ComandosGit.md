@@ -104,6 +104,8 @@ git config --list | grep alias mostrara todos los alias creados.
 
 12.5 `git branch --merged` Nos muestra la rama que han sido fusionadas.
 
+12.6 `git branch --all` Nos muestra las rama que estan ocultas.
+
 13. `git merge "otra_rama"`Este comando permite combinar dos ramas. incorpora otra_rama en la rama actual.
 
 ````
