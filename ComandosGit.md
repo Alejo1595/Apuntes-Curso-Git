@@ -105,3 +105,10 @@ git config --list | grep alias mostrara todos los alias creados.
 12.5 `git branch --merged` Nos muestra la rama que han sido fusionadas.
 
 13. `git merge "otra_rama"`Este comando permite combinar dos ramas. incorpora otra_rama en la rama actual.
+
+````
+git remote add origin "url del repositorio" Foma de vincular git con un repositorio en la nube.
+
+git push -u origin master forma de subir los cambios a la nube una vez se haya vinculado el repositorio local.
+
+````
