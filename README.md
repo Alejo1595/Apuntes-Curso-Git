@@ -20,3 +20,5 @@ Agregue estas líneas de configuración al final del archivo:
   helper = "Su nombre de usuario"
   useHttpPath = true
 ````
+
+Cambios realizados por julian1595 desde aporte2
